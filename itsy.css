@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  justify-content: space-between;
+  font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+  color: #56566e;
+  font-size: 30px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.header__list {
+  list-style: none;
+  float: left;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.header__icon {
+  color: #56566e;
+  font-size: 20px;
+}
+
+.icon__search {
+  color: #e68a8a;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-menu ul {
+  margin: 0px;
+}
+
+.header__logo {
+  display: flex;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
