@@ -6,6 +6,8 @@ header {
   background: url(img/lead.jpg);
   height: 100vh;
   flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .header-top {
@@ -51,5 +53,35 @@ header {
 }
 
 .home-text {
+  display: flex;
+  font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 50px;
+}
 
+.header-arrow {
+  display: flex;
+  font-size: 100px;
+  color: #ffffff;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.home-text__title {
+  display: flex;
+  font-size: 190px;
+  margin: 0px;
+  border-top: 2px solid #ffffff;
+  line-height: 126px;
+}
+
+.home-text__subtitle {
+  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  font-size: 55px;
+  margin-top: 19px;
+  margin-bottom: 0px;
+  line-height: 45px;
 }
