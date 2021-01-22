@@ -1,12 +1,21 @@
+body {
+  margin: 0px;
+}
 header {
   display: flex;
-  padding: 10px 30px 10px 30px;
+  background: url(img/lead.jpg);
+  height: 100vh;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
   justify-content: space-between;
+  padding: 10px 30px;
   font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
-  color: #56566e;
   font-size: 30px;
-  font-weight: 700;
-  overflow: hidden;
+  background: rgba(255,255,255, 0.8);
+
 }
 
 .header__list {
@@ -14,11 +23,12 @@ header {
   float: left;
   text-transform: uppercase;
   margin-left: 30px;
+  font-size: 25px;
 }
 
 .header__icon {
   color: #56566e;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .icon__search {
@@ -40,3 +50,6 @@ header {
   text-transform: uppercase;
 }
 
+.home-text {
+
+}
