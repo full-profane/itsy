@@ -1,13 +1,13 @@
 body {
   margin: 0px;
 }
+
 header {
   display: flex;
-  background: url(img/lead.jpg);
+  background: url(../img/lead.jpg);
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .header-top {
@@ -16,8 +16,7 @@ header {
   padding: 10px 30px;
   font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
   font-size: 30px;
-  background: rgba(255,255,255, 0.8);
-
+  background: rgba(225,255,255, 0.8);
 }
 
 .header__list {
