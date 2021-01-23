@@ -18,10 +18,10 @@ header {
 }
 
 .amatic {
-    font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
+  font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
 }
 
-.header__list {
+.header-menu__item {
   list-style: none;
   float: left;
   text-transform: uppercase;
@@ -29,7 +29,7 @@ header {
   font-size: 25px;
 }
 
-.header__list:hover {
+.header-menu__item:hover {
   color: #e68a8a;
 }
 
