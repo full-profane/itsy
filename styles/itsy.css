@@ -30,7 +30,7 @@ header {
   font-size: 25px;
 }
 
-.header-menu__item:hover, .header__icon:hover {
+.active, .header-menu__item:hover, .header__icon:hover {
   color: #e68a8a;
 }
 
