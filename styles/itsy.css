@@ -127,3 +127,83 @@ header {
 .box-item__description {
   font-size: 20px;
 }
+
+.post-container {
+  background: #fbfbfb;
+  display: flex;
+  justify-content: center;
+}
+
+.post-item {
+  margin-top: 100px;
+  max-width: 60%;
+}
+
+.post-item__preview img {
+  height: 510px;
+  width: 100%;
+}
+
+.post-content {
+  display: flex;
+  background: #ffffff;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 80px;
+}
+
+.post-content__title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.post-content__description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.post-content__description i {
+  color: #e68a8a;
+  font-size: 5px;
+  vertical-align: middle;
+}
+
+.lato {
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+.post-content__text {
+  font-size: 16px;
+  color: rgb(115, 113, 113);
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.post-content blockquote {
+  font-size: 35px;
+  border-left: 1px red solid;
+  margin-top: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+}
+
+.post-content button {
+  display: block;
+  align-self: center;
+  color: #e68a8a;
+  border: 1px #e68a8a solid;
+  border-radius: 200px;
+  font-size: 22px;
+  background: #ffffff;
+  width: fit-content;
+  margin: 30px;
+  padding: 10px 20px;
+}
+
+.post-content__tag {
+  text-align: center;
+  font-size: 22px;
+}
+
+
