@@ -1,6 +1,7 @@
 body {
   margin: 0px;
 }
+
 .home {
   display: flex;
   background: url(../img/lead.jpg);
