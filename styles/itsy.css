@@ -29,17 +29,13 @@ header {
   font-size: 25px;
 }
 
-.header-menu__item:hover {
+.header-menu__item:hover , .header__icon:hover{
   color: #e68a8a;
 }
 
 .header__icon {
   color: #56566e;
   font-size: 15px;
-}
-
-.header__icon:hover {
-  color: #e68a8a;
 }
 
 .active {
