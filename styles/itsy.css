@@ -1,6 +1,4 @@
-body {
-  margin: 0px;
-}
+* { margin: 0; padding: 0; }
 
 .home {
   display: flex;
@@ -83,4 +81,49 @@ header {
   margin-top: 19px;
   margin-bottom: 0px;
   line-height: 45px;
+}
+
+.moments {
+  padding: 20px;
+}
+
+.moments-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #808080;
+  margin: 60px;
+}
+
+.moments-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.box-item {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  max-height: 45%;
+}
+
+.box-item__img {
+  border-radius: 50%;
+  height: 80%;
+  margin-bottom: 30px;
+}
+
+.box-item__title, .box-item__description {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #595252;
+}
+
+.box-item__description {
+  font-size: 20px;
 }
