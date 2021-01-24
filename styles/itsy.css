@@ -163,7 +163,7 @@ header {
   font-size: 1.5rem;
 }
 
-.post-content__description i {
+.post-content__description i{
   color: #e68a8a;
   font-size: 5px;
   vertical-align: middle;
@@ -205,5 +205,4 @@ header {
   text-align: center;
   font-size: 22px;
 }
-
 
