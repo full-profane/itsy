@@ -132,15 +132,18 @@ header {
   background: #fbfbfb;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
 }
 
 .post-item {
-  margin-top: 100px;
-  max-width: 60%;
+  margin-bottom: 40px;
+  width: 60%;
 }
 
 .post-item__preview img {
-  height: 510px;
+  height: 610px;
   width: 100%;
 }
 
@@ -206,3 +209,9 @@ header {
   font-size: 22px;
 }
 
+#post-content__btn {
+  font-size: 30px;
+  padding: 5px 70px;
+  border: 2px #e68a8a solid;
+  font-weight: 700;
+}
