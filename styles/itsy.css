@@ -215,3 +215,8 @@ header {
   border: 2px #e68a8a solid;
   font-weight: 700;
 }
+
+.post-iframe {
+  height: 610px;
+  width: 100%;
+}
