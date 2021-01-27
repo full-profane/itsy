@@ -204,6 +204,11 @@ header {
   padding: 10px 20px;
 }
 
+.post-content button:hover {
+  color: #ffffff;
+  background: #e68a8a;
+}
+
 .post-content__tag {
   text-align: center;
   font-size: 22px;
@@ -228,7 +233,7 @@ footer {
   color: #8c8a8a;
 }
 
-.footer-down {
+.footer-copyright{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -237,12 +242,12 @@ footer {
   font-size: 13px;
 }
 
-.footer-down__arrow i {
+.footer-copyright__arrow i {
   margin-left: 4px;
   font-size: 15px;
 }
 
-.footer-down__arrow a {
+.footer-copyright__arrow a {
   text-decoration: none;
   color: #595252;
 }
