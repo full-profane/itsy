@@ -30,12 +30,11 @@ header {
   font-size: 25px;
 }
 
-.header-menu__item a {
+header a {
   text-decoration: none;
-  color: #000000;
 }
 
-.active, .header-menu__item:hover, .header__icon:hover ,.header-menu__item a:hover {
+.active a, .header-menu__item:hover, .header__icon:hover ,.header-menu__item a:hover {
   color: #e68a8a;
 }
 
