@@ -140,3 +140,48 @@ footer {
   line-height: 30px;
 }
 
+@media (max-width: 992px) {
+  .header-menu {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+    cursor: pointer;
+    color: #56566e;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 769px) {
+  .header-menu {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+    cursor: pointer;
+    color: #56566e;
+    font-size: 30px;
+  }
+
+  .footer-basis {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  }
+
+  .footer-about {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 416px) {
+  header {
+    padding: 5px 20px;
+  }
+
+  .footer-copyright {
+    padding: 14px;
+  }
+}
