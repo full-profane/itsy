@@ -12,6 +12,10 @@ header {
   font-family: 'Amatic SC', 'Heveltica Neue', Arial, sans-serif;
 }
 
+.lato {
+  font-family: 'Lato', Arial, sans-serif;
+}
+
 .header-menu__item {
   list-style: none;
   float: left;

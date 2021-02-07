@@ -8,10 +8,6 @@
     color: #8c8a8a;
 }
 
-.lato {
-  font-family: 'Lato', Arial, sans-serif;
-}
-
 .about-content {
   display: flex;
   width: 50%;
@@ -40,10 +36,11 @@
 
 .about-text {
   margin-left: 20px;
+  margin-right: 30px;
 }
 
 .about-text p {
-  margin-bottom: 20px;
+  margin-bottom: 33px;
 }
 
 .about__icon {
