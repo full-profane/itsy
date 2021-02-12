@@ -65,6 +65,21 @@
   }
 }
 
+@media (max-width: 560px) {
+  .about-basis {
+    flex-direction: column;
+  }
+
+  .about-basis img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-container__title {
+    text-align: center;
+  }
+}
+
 @media (max-width: 416px) {
   .about-basis {
     flex-direction: column;
@@ -80,17 +95,4 @@
   }
 }
 
-@media (max-width: 560px) {
-  .about-basis {
-    flex-direction: column;
-  }
 
-  .about-basis img {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .about-container__title {
-    text-align: center;
-  }
-}
